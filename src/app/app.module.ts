@@ -12,7 +12,10 @@ import { AppRoutingModule } from './app-routing.module';
     BrowserModule,
     AppRoutingModule
   ],
-  providers: [],
+  providers: [
+    // UserService,
+    // { provide: APP_CONFIG, useValue: EVENT_DI_CONFIG }
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
